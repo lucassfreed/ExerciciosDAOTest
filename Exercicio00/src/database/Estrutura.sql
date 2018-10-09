@@ -13,7 +13,7 @@ CREATE TABLE filmes (
 	categoria VARCHAR(100) NOT NULL,
 	ator_principal VARCHAR(200) NOT NULL,
 	ano INT NOT NULL,
-	tempo_filme TINYINT NOT NULL,
+	tempo_filme SMALLINT NOT NULL,
 	faixa_etaria VARCHAR(150) NOT NULL,
 	idioma_original VARCHAR(200) NOT NULL,
 	orcamento DOUBLE NOT NULL,

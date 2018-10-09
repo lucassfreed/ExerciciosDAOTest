@@ -6,11 +6,20 @@ package bean;
  */
 public class Filme {
     
+    private int id;
     private String nome, diretor, categoria, atorPrincipal, faixaEtaria, idiomaOriginal;
     private int ano;
     private short tempoFilme;
     private double orcamento, faturamento;
     private boolean legenda, dublado;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNome() {
         return nome;
